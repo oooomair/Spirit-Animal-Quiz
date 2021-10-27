@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&family=Oswald&display=swap");
+
+/* bootstrap */
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* tags */
+
+* {
+  font-family: "Oswald", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: #ffe8d6;
+  text-align: center;
+}
+
+/* class */
+
+.body {
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f07b3f;
+}
+
+.body-1 {
+  height: 100vh;
+  display: none;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f07b3f;
+}
+
+.header {
+  margin-bottom: 10vh;
+}
+
+.header__h1 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.h1__span {
+  font-family: "Irish Grover", cursive;
+  font-size: 5rem;
+  color: #ffe8d6;
+}
+
+.h1__span_l {
+  margin: 40px 0 20px 0;
+  font-size: 3rem;
+}
+
+.q-area {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-color: #fda65d;
+}
+
+.q-area__h2 {
+  font-size: 2.5rem;
+}
+
+.q-area__mcq {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.mcq__checkbox {
+  height: 22px;
+  width: 22px;
+  margin: 10px;
+}
+
+.mcq-1,
+.mcq-2 {
+  display: none;
+}
+
+.mcq {
+  margin: 0 15px;
+  font-size: 1.5rem;
+  width: 200px;
+}
+
+.animal {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.animal-img {
+  height: 400px;
+  width: max-content;
+}
+
+.dababy-img {
+  position: absolute;
+  height: 500px;
+}
